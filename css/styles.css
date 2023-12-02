@@ -1,16 +1,16 @@
 body {
-  font-family: "Roboto";
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: #ffffff;
 }
 header {
-  font-family: inherit;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
   color: #2e2f42;
   background-color: inherit;
 }
-footer {
-  font-family: inherit;
+.foot {
+    font-family: "Raleway", sans-serif;
   color: #f4f4fd;
   background-color: #2e2f42;
 }
@@ -42,6 +42,10 @@ a:active {
   color: #404bbf;
 }
 
+.top-line:focus{
+    color: #404bbf;
+}
+
 .logo {
   color: #4d5ae5;
   font-family: "Raleway";
@@ -53,7 +57,6 @@ a:active {
 }
 
 .header-logo {
-  color: #2e2f42;
   font-family: "Raleway";
   font-size: 18px;
   font-style: normal;
@@ -63,7 +66,7 @@ a:active {
   text-transform: uppercase;
 }
 
-address a{
+.contacts{
   color: #434455;
   font-size: 16px;
   font-style: normal;
@@ -72,41 +75,58 @@ address a{
   letter-spacing: 0.32px;
 }
 
-address a:hover {
+.contacts:hover {
   color: #404bbf;
+}
+
+.contacts:focus{
+    color: #404bbf;
 }
 .hero-image {
   color: #ffffff;
   background-color: #2e2f42;
 }
-button {
-  color: #f4f4fd;
+.but-on {
+  color: #ffffff;
   background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
   line-height: 150%;
   letter-spacing: 0.64px;
 }
-button:hover {
+.but-on:hover {
   background-color: #404bbf;
 }
-h2 {
-  color: #2e2f42;
-  font-weight: 700;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 107.143%;
-  letter-spacing: 1.12px;
+.but-on:focus{
+    background-color: #404bbf; 
 }
-h3 {
+.header-one{
+    font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 107.143%;
+letter-spacing: 1.12px;
+}
+.header-two {
+  color: #2e2f42;
+font-size: 36px;
+font-weight: 700;
+line-height: 111.111%;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+.header-three {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.4px;
+  
 }
-p {
+.paragraph {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -116,14 +136,15 @@ p {
 .footer-text {
   color: #f4f4fd;
 }
-.our-team {
+.list{
+    background-color: #FFF;
+}
+.our-our {
   background-color: #f4f4fd;
 }
 .footer-logo {
-  color: #f4f4fd;
   font-family: "Raleway";
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 116.667%;
   letter-spacing: 0.54px;
